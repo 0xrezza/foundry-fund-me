@@ -32,4 +32,8 @@ contract FundMeTest is Test {
         // assert(This tx fails/reverts)
         fundMe.fund(); // send 0 value
     }
+    function testFundUpdatesFundedDataStructure() public {
+        fundMe.fund{value: 10e18}();
+        
+    }
 }
