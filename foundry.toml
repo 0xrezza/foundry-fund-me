@@ -4,6 +4,8 @@ out = "out"
 libs = ["lib"]
 remappings = [
     '@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/',
+    'foundry-devops/=lib/foundry-devops/',
 ]
+ffi = true
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
